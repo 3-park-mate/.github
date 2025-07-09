@@ -6,13 +6,13 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 
 본 프로젝트는 각 기능이 독립적인 마이크로서비스로 분리되어 있으며, API Gateway를 통해 외부 요청을 처리합니다. 서비스 간의 통신, 서비스 검색 및 관리를 위해 Service Discovery, Message Queue 등의 패턴을 적용했습니다.
 
-<img src="./images/시스템아키텍처.png">
+<img src="./images/시스템아키텍처.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
 
 ## CI/CD 파이프라인
 
 ## 🧾 ERD
 
-<img src="./images/erd.png">
+<img src="./images/erd.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
 
 ## ✨ 주요 기능
 
@@ -62,22 +62,55 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 
 ## 📱 화면 구성
 
-|  로그인   |  메인   |
+|  회원가입   |  로그인   |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/533f07fa-223e-4dad-ad09-3f1a1a2fd51c" width="300"/>    |  <img src="./시스템아키텍처.png" width="300"/>   |   
+| <img src="./gifs/회원가입.gif" width="300">  |     |   
+
+|  주차장 등록   |  주차장 상세 페이지  |
+| :---: | :---: |
+| <img src="./gifs/주차장등록.gif" width="300">   |  <img src="./gifs/주차장상세페이지.gif" width="300">   |   
+
+|  주차장 조회   |  주차장 검색  |
+| :---: | :---: |
+| | |  
+
+|  내차량관리   |  즐겨찾기   |
+| :---: | :---: |
+| <img src="./gifs/내차량관리.gif" width="300">    | <img src="./gifs/즐겨찾기.gif" width="300">     |   
+
+| 예약 |  예약완료알림   |  결제   |
+| :---: | :---: | :---: |
+| | <img src="./gifs/예약완료알림.gif" width="300">   | <img src="./gifs/결제.gif" width="300"> |   
 
 ## 이벤트 스토밍
-<img src="./images/이벤트스토밍.png">
+<img src="./images/이벤트스토밍.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);" >
 
-## 🔧 Git
-### 이슈
-### 커밋
-### PR
+## 🤝 협업
+
+### 💬 Slack을 통한 소통
+모든 팀원은 Slack으로 소통하며, 중요한 논의 내용 또는 PR 확인 메시지를 통해 신속한 작업이 이루어지도록 했습니다.
+<img src="./images/slack.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);" >
+
+### 🐛 이슈 관리
+모든 작업은 Github Issues에 등록하여 관리하며, Issue에 등록된 업무를 기준으로 작업을 진행했습니다.
+<img src="./images/이슈.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+
+### 📝 커밋 컨벤션
+명확하고 일관된 커밋 메시지 규칙을 따라 코드 변경 내역을 쉽게 파악할 수 있도록 했습니다.
+<img src="./images/커밋.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+
+### 🔀 PR(Pull Request) 프로세스
+모든 코드는 PR을 통해 리뷰를 거치며, 최소 2명 이상의 팀원에게 `approve`를 받아야 머지할 수 있습니다.
+<img src="./images/PR.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+<img src="./images/머지블락.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
 
 ## 🗓️ 일정 관리
 ### WBS
-
+📎 [WBS](https://docs.google.com/spreadsheets/d/11S0fp9Y6vst6RtbusKjoVJ72BpezUXwU6aG5bn_pgLM/edit?gid=118836952#gid=118836952)
 ## 📑 API 명세서
+📎 [API 명세서](https://docs.google.com/spreadsheets/d/11S0fp9Y6vst6RtbusKjoVJ72BpezUXwU6aG5bn_pgLM/edit?gid=1680415821#gid=1680415821)
+
+<img src = "./images/api명세.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
 
 ## 👥 팀원 소개
 | 이름 | 역할 |
