@@ -86,20 +86,21 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 
 ### 💬 Slack을 통한 소통
 모든 팀원은 Slack으로 소통하며, 중요한 논의 내용 또는 PR 확인 메시지를 통해 신속한 작업이 이루어지도록 했습니다.
-<img src="./images/slack.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);" >
+<img src="./images/slack.png" width="600" >
 
 ### 🐛 이슈 관리
 모든 작업은 Github Issues에 등록하여 관리하며, Issue에 등록된 업무를 기준으로 작업을 진행했습니다.
-<img src="./images/이슈.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+<img src="./images/이슈.png" width="600">
 
 ### 📝 커밋 컨벤션
 명확하고 일관된 커밋 메시지 규칙을 따라 코드 변경 내역을 쉽게 파악할 수 있도록 했습니다.
-<img src="./images/커밋.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+
+<img src="./images/커밋.png" width="1000">
 
 ### 🔀 PR(Pull Request) 프로세스
 모든 코드는 PR을 통해 리뷰를 거치며, 최소 2명 이상의 팀원에게 `approve`를 받아야 머지할 수 있습니다.
-<img src="./images/PR.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
-<img src="./images/머지블락.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+<img src="./images/PR.png" width="800">
+<img src="./images/머지블락.png" width="800">
 
 ### ⚡ 이벤트 스토밍
 <img src="./images/이벤트스토밍.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);" >
