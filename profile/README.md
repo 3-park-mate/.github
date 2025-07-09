@@ -30,13 +30,15 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 
 본 프로젝트는 각 기능이 독립적인 마이크로서비스로 분리되어 있으며, API Gateway를 통해 외부 요청을 처리합니다. 서비스 간의 통신, 서비스 검색 및 관리를 위해 Service Discovery, Message Queue 등의 패턴을 적용했습니다.
 
-<img src="./images/시스템아키텍처.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+<img src="./images/architecture.png">
 
 ## CI/CD 파이프라인
 
+<img src="./images/cicd.png" width="400">
+
 ## 🧾 ERD
 
-<img src="./images/erd.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+<img src="./images/erd.png">
 
 ## 🛠️ 기술 스택
 
@@ -51,9 +53,9 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 
 ## 📱 화면 구성
 
-|  회원가입   |  로그인   |
-| :---: | :---: |
-| <img src="./gifs/회원가입.gif" width="300">  |     |   
+|  회원가입 및 로그인   |
+| :---: |
+| <img src="./gifs/회원가입.gif" width="300">  | 
 
 |  주차장 등록   | 주차장 관리 | 
 | :---: | :---: | 
@@ -67,9 +69,9 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 | :---: | :---: |
 | <img src="./gifs/내차량관리.gif" width="300">    | <img src="./gifs/즐겨찾기.gif" width="300">     |   
 
-| 예약 |  예약완료알림   |  결제   |
+| 예약정보 |  예약완료알림   |  결제   |
 | :---: | :---: | :---: |
-| | <img src="./gifs/예약완료알림.gif" width="300">   | <img src="./gifs/결제.gif" width="300"> |   
+| <img src="./gifs/예약정보.gif" width="300"> | <img src="./gifs/예약완료알림.gif" width="300"> | <img src="./gifs/결제.gif" width="300"> |   
 
 ## ✨ 주요 기능
 
