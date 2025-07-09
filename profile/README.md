@@ -2,40 +2,6 @@
 
 ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주차장 소유주에게는 유휴 공간을 효과적으로 활용할 수 있는 기회를 제공하는 MSA(Microservice Architecture) 기반 주차장 중개 플랫폼입니다.
 
-## 🏛️ 시스템 아키텍처
-
-본 프로젝트는 각 기능이 독립적인 마이크로서비스로 분리되어 있으며, API Gateway를 통해 외부 요청을 처리합니다. 서비스 간의 통신, 서비스 검색 및 관리를 위해 Service Discovery, Message Queue 등의 패턴을 적용했습니다.
-
-<img src="./images/시스템아키텍처.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
-
-## CI/CD 파이프라인
-
-## 🧾 ERD
-
-<img src="./images/erd.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
-
-## ✨ 주요 기능
-
-- **사용자**: 회원가입, 로그인, 프로필 관리
-- **호스트**: 주차장 등록, 관리 및 수익 정산
-- **주차장 검색**: 위치 기반 실시간 주차장 정보 조회, 필터링 및 검색
-- **예약 및 결제**: 간편한 주차 공간 예약 및 결제 시스템
-- **알림**: 예약, 결제 등 주요 이벤트에 대한 실시간 알림
-- **이용 내역**: 사용자의 주차 이용 내역 조회
-
-## 🛠️ 기술 스택
-
-| 구분 | 기술 |
-| --- | --- |
-| **Backend** | Java, Spring Boot, Spring Cloud, JPA, QueryDSL |
-| **Frontend** | Next.js, TypeScript, TurboRepo |
-| **Database** | MySQL, MongoDB, Redis |
-| **Infrastructure** | AWS, Docker, GIthub Actions, Kafka, Nginx |
-| **API Gateway** | Spring Cloud Gateway |
-| **Service Discovery**| Netflix Eureka |
-| **Build Tool** | Gradle |
-| **Common** | RESTful API, OAuth 2.0  |
-
 ## 🚀 마이크로서비스 목록
 
 각 서비스에 대한 자세한 내용은 해당 디렉토리의 `README.md` 파일을 참고해주세요.
@@ -60,6 +26,31 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 | **History Service** | [`parkmate-user-parking-history`](https://github.com/3-park-mate/parkmate-user-parking-history)| 주차장 입/출차 내역 관리 |
 | **Chat Service** | [`parkmate-chat-service`](https://github.com/3-park-mate/parkmate-chat-service) | 채팅 관련 기능 관리 |
 
+## 🏛️ 시스템 아키텍처
+
+본 프로젝트는 각 기능이 독립적인 마이크로서비스로 분리되어 있으며, API Gateway를 통해 외부 요청을 처리합니다. 서비스 간의 통신, 서비스 검색 및 관리를 위해 Service Discovery, Message Queue 등의 패턴을 적용했습니다.
+
+<img src="./images/시스템아키텍처.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+
+## CI/CD 파이프라인
+
+## 🧾 ERD
+
+<img src="./images/erd.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+
+## 🛠️ 기술 스택
+
+| 구분 | 기술 |
+| --- | --- |
+| **Backend** | Java, Spring Boot, Spring Cloud, JPA, QueryDSL |
+| **Frontend** | Next.js, TypeScript, TurboRepo |
+| **Database** | MySQL, MongoDB, Redis |
+| **Infrastructure** | AWS, Docker, GIthub Actions, Kafka, Nginx |
+| **API Gateway** | Spring Cloud Gateway |
+| **Service Discovery**| Netflix Eureka |
+| **Build Tool** | Gradle |
+| **Common** | RESTful API, OAuth 2.0  |
+
 ## 📱 화면 구성
 
 |  회원가입   |  로그인   |
@@ -82,8 +73,14 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 | :---: | :---: | :---: |
 | | <img src="./gifs/예약완료알림.gif" width="300">   | <img src="./gifs/결제.gif" width="300"> |   
 
-## 이벤트 스토밍
-<img src="./images/이벤트스토밍.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);" >
+## ✨ 주요 기능
+
+- **사용자**: 회원가입, 로그인, 프로필 관리
+- **호스트**: 주차장 등록, 관리 및 수익 정산
+- **주차장 검색**: 위치 기반 실시간 주차장 정보 조회, 필터링 및 검색
+- **예약 및 결제**: 간편한 주차 공간 예약 및 결제 시스템
+- **알림**: 예약, 결제 등 주요 이벤트에 대한 실시간 알림
+- **이용 내역**: 사용자의 주차 이용 내역 조회
 
 ## 🤝 협업
 
@@ -103,6 +100,9 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 모든 코드는 PR을 통해 리뷰를 거치며, 최소 2명 이상의 팀원에게 `approve`를 받아야 머지할 수 있습니다.
 <img src="./images/PR.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
 <img src="./images/머지블락.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+
+### ⚡ 이벤트 스토밍
+<img src="./images/이벤트스토밍.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);" >
 
 ## 🗓️ 일정 관리
 ### WBS
