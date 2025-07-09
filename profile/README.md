@@ -101,15 +101,15 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 <img src="./images/머지블락.png" width="800">
 
 ### ⚡ 이벤트 스토밍
-<img src="./images/이벤트스토밍.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);" >
+<img src="./images/이벤트스토밍.png">
 
-## 🗓️ 일정 관리
-### WBS
-📎 [WBS](https://docs.google.com/spreadsheets/d/11S0fp9Y6vst6RtbusKjoVJ72BpezUXwU6aG5bn_pgLM/edit?gid=118836952#gid=118836952)
+## 📊 WBS
+📎 [Link](https://docs.google.com/spreadsheets/d/11S0fp9Y6vst6RtbusKjoVJ72BpezUXwU6aG5bn_pgLM/edit?gid=118836952#gid=118836952)
+
 ## 📑 API 명세서
-📎 [API 명세서](https://docs.google.com/spreadsheets/d/11S0fp9Y6vst6RtbusKjoVJ72BpezUXwU6aG5bn_pgLM/edit?gid=1680415821#gid=1680415821)
+📎 [Link](https://docs.google.com/spreadsheets/d/11S0fp9Y6vst6RtbusKjoVJ72BpezUXwU6aG5bn_pgLM/edit?gid=1680415821#gid=1680415821)
 
-<img src = "./images/api명세.png" style="border-radius: 15px;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+<img src = "./images/api명세.png">
 
 ## 👥 팀원 소개
 | 이름 | 역할 |
