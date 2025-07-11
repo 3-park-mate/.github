@@ -60,6 +60,7 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 | **Infrastructure** | <img src="https://img.shields.io/badge/AWS-%23EF7B4D?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/Docker-%232496ED?style=for-the-badge&logo=Docker&logoColor=white"> <img src="https://img.shields.io/badge/github actions-%232088FF?style=for-the-badge&logo=githubactions&logoColor=black"> <img src="https://img.shields.io/badge/kafka-%23231F20?style=for-the-badge&logo=apachekafka&logoColor=white">, <img src="https://img.shields.io/badge/nginx-%23009639?style=for-the-badge&logo=nginx&logoColor=white"> <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black">|
 | **Build Tool** | <img src="https://img.shields.io/badge/pnpm-%23F69220?style=for-the-badge&logo=pnpm&logoColor=white"> <img src="https://img.shields.io/badge/Gradle-%2302303A?style=for-the-badge&logo=Gradle&logoColor=white"> |
 | **Common** | <img src="https://img.shields.io/badge/REST API-%23FF0000?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/OAuth-%23FFCD00?style=for-the-badge&logo=kakao&logoColor=black"> |
+
 <br></br>
 
 # 📱 화면 구성
@@ -83,6 +84,7 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 | 예약 | 예약정보 |  예약완료알림   |  결제   |
 | :---: | :---: | :---: | :---: |
 | <img src="./gifs/예약.gif" width="300">  | <img src="./gifs/예약정보.gif" width="300"> | <img src="./gifs/예약완료알림.gif" width="300"> | <img src="./gifs/결제.gif" width="300"> |   
+
 <br></br>
 
 # ✨ 주요 기능
@@ -137,8 +139,8 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 | 김보미 | BE, 인증,리뷰,호스트 |
 | 윤예지 | FE, 지도, 예약, 검색, 채팅 |
 | 윤채영 | FE, 인증, 주차장, 알림, 결제, 호스트 |
-<br></br>
 
+<br></br>
 
 # 💬 느낀점
 | 이름 | 느낀점 |
