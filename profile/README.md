@@ -6,7 +6,6 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 # 📷 접속 QR
 <img src="./images/QR.png">
 <br></br>
-<br></br>
 
 # 🚀 마이크로서비스 목록
 
