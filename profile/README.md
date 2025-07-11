@@ -30,6 +30,7 @@ ParkMate는 운전자에게 실시간 주차 공간 정보를 제공하고, 주�
 | **Notification Service**| [`parkmate-notification-service`](https://github.com/3-park-mate/parkmate-notification-service)| 푸시 알림 발송 |
 | **History Service** | [`parkmate-user-parking-history`](https://github.com/3-park-mate/parkmate-user-parking-history)| 주차장 입/출차 내역 관리 |
 | **Chat Service** | [`parkmate-chat-service`](https://github.com/3-park-mate/parkmate-chat-service) | 채팅 관련 기능 관리 |
+
 <br></br>
 
 # 🏛️ 시스템 아키텍처
